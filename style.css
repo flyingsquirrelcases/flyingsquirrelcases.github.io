@@ -1,6 +1,25 @@
-@media (max-width: 768px) {
-	body {
-		margin: 0;
-		padding: 0;
-	}
+@media (max-width: 768px) 
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+.centered
+{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 250px;
+    height: 100px;
+    margin: auto;
+
+    background: red;
 }
