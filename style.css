@@ -17,9 +17,57 @@
     bottom: 0;
     left: 0;
 
-    width: 250px;
-    height: 100px;
+    width: 60%;
+    height: 255px;
     margin: auto;
+}
 
-    background: red;
+
+
+@font-face {
+    font-family: 'airplaneregular';
+    src: url('fonts/airplane-webfont.eot');
+    src: url('fonts/airplane-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/airplane-webfont.woff2') format('woff2'),
+         url('fonts/airplane-webfont.woff') format('woff'),
+         url('fonts/airplane-webfont.ttf') format('truetype'),
+         url('fonts/airplane-webfont.svg#airplaneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	color: #fff;
+	font-style: italic;
+}
+
+h1 {
+	font-family: 'airplaneregular';
+	font-size: 80px;
+	color: #fff;
+	text-transform: lowercase;
+	text-shadow: -2px -1px 0px black;
+	font-style: italic;
+	margin: 0;
+}
+
+.lead {
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+form {
+	width: 270px;
+	margin: 0 auto;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 10px;
+}
+input {
+	padding: 5px 5px 6px;
+	border-radius: 4px;
+	text-align: center;
+	border: none;
+}
+.btn {
+	border: none;
 }
